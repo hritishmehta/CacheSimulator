@@ -3,6 +3,8 @@
 #include<string.h>
 #include<math.h>
 #include"cache.h"
+#Guide on how to input the cache size parameter field
+#./TwoLevelCache <L1 cache size><L1 associativity><L1 cache policy><L1 block size> <L2 cache size><L2 associativity><L2 cache policy><trace file>
 
 long memRead = 0; 
 long memWrite = 0;
